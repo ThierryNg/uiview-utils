@@ -13,7 +13,7 @@ extension UIView {
         case left, right, top, bottom
     }
 
-    func addBorder(toSide side: Side, withColor color: CGColor, andThickness thickness: CGFloat) {
+    func addBorder(side: Side, color: CGColor, thickness: CGFloat) {
 
         let border = CALayer()
         border.backgroundColor = color
